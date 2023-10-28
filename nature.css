@@ -1,0 +1,86 @@
+
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    line-height: 3rem;
+    color: #666;
+}
+
+html{
+    font-size: 62.5%;
+}
+.sec1{
+    background-image: url(HD-Wallpapers-Nature-Images.jpg);
+    min-height: 100%;
+}
+
+.img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img1{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 2.7rem;
+    letter-spacing: .8rem;
+}
+
+.text{
+    background-color: #313534;
+    color: #fff;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.para{
+    padding: 10rem;
+    background-color: #313534;
+    color: #fff;
+}
+
+.sec2{
+    background-image: url(snow.jpg);
+    min-height: 40rem;
+}
+
+.sec3{
+    background-image: url(nature1.jpg);
+    min-height: 40rem;
+}
+
+.sec4{
+    background-image: url(nature-images-wallpaper.jpg);
+    min-height: 40rem;
+}
+
+.sec5{
+    background-image: url(244676-nature-landscape-mountain-water-forest.jpg);
+    min-height: 40rem;
+}
+
+.sec6{
+    background-image: url(Free-Download-Best-HD-Nature-Photos.jpg);
+    min-height: 40rem;
+}
+
+@media screen and (max-width:600px)
+{
+    .text{
+        padding: 2rem;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .para{
+        padding: 3rem;
+    }
+}
